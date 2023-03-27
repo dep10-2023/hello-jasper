@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="245.0" prefWidth="365.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep10.reports.controller.MainViewController">
+   <children>
+      <Label layoutX="47.0" layoutY="39.0" text="Hello Jasper reports">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <VBox layoutX="83.0" layoutY="95.0" spacing="10.0">
+         <children>
+            <Button fx:id="btnShowReports" minWidth="200.0" mnemonicParsing="false" onAction="#btnShowReportsOnAction" text="SHOW REPORTS">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnPrintReports" minWidth="200.0" mnemonicParsing="false" onAction="#btnPrintReportsOnAction" text="PRINT REPORTS">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnExportReports" minWidth="200.0" mnemonicParsing="false" onAction="#btnExportReportsOnAction" text="EXPORT REPORTS">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
